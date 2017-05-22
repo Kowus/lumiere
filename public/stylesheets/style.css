@@ -1,8 +1,36 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.btn-dark {
+  color: #fff;
+  background-color: #333;
+  border-color: #ccc;
 }
-
-a {
-  color: #00B7FF;
+.btn-dark:focus,
+.btn-dark.focus {
+  color: #fff;
+  background-color: #e6e6e6;
+  border-color: #8c8c8c;
+}
+.btn-dark:hover {
+  color: #fff;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.btn-dark:active,
+.btn-dark.active,
+.open > .dropdown-toggle.btn-dark {
+  color: #fff;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.btn-dark:active:hover,
+.btn-dark.active:hover,
+.open > .dropdown-toggle.btn-dark:hover,
+.btn-dark:active:focus,
+.btn-dark.active:focus,
+.open > .dropdown-toggle.btn-dark:focus,
+.btn-dark:active.focus,
+.btn-dark.active.focus,
+.open > .dropdown-toggle.btn-dark.focus {
+  color: #fff;
+  background-color: #d4d4d4;
+  border-color: #8c8c8c;
 }

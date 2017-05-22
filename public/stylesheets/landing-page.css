@@ -138,6 +138,48 @@ h6 {
     margin-top: 0;
 }
 
+
+
+.btn-dark {
+    color: #fff;
+    background-color: #000;
+    border-color: #666;
+}
+.btn-dark:focus,
+.btn-dark.focus {
+    color: #000;
+    background-color: #fff;
+    border-color: #8c8c8c;
+}
+.btn-dark:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #adadad;
+}
+.btn-dark:active,
+.btn-dark.active,
+.open > .dropdown-toggle.btn-dark {
+    color: #000;
+    background-color: #fff;
+    border-color: #adadad;
+}
+.btn-dark:active:hover,
+.btn-dark.active:hover,
+.open > .dropdown-toggle.btn-dark:hover,
+.btn-dark:active:focus,
+.btn-dark.active:focus,
+.open > .dropdown-toggle.btn-dark:focus,
+.btn-dark:active.focus,
+.btn-dark.active.focus,
+.open > .dropdown-toggle.btn-dark.focus {
+    color: #000;
+    background-color: #fff;
+    border-color: #8c8c8c;
+}
+
+
+
+
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
