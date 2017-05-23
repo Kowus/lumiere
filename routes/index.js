@@ -7,7 +7,6 @@ hbs.registerHelper('thisyear', function () {
 });
 hbs.registerPartials('./views/partials');
 
-
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Lumi&egrave;re' });
