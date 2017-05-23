@@ -213,3 +213,9 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+.def-margin{
+    margin-left:80px;
+}
+.def-margin-50{
+    margin-left: 50px;
+}
