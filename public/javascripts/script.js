@@ -1,3 +1,4 @@
+// Smooth Scrolling
 $('a[href*=#]:not([href=#])').click(function() {
 	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')	||location.hostname == this.hostname) {
 		var target = $(this.hash);
@@ -10,3 +11,13 @@ $('a[href*=#]:not([href=#])').click(function() {
 		}
 	}
 });
+
+
+// Scroll Reveal
+var srOptions ={
+	reset: true
+}
+
+window.sr = ScrollReveal(srOptions);
+
+sr.reveal('.content-section-a',{duration: 1000})
