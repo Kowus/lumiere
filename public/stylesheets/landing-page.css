@@ -219,3 +219,5 @@ p.copyright {
 .def-margin-50{
     margin-left: 50px;
 }
+label{width: 100%}
+textarea {resize: none;}
