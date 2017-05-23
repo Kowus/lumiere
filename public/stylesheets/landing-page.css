@@ -222,8 +222,8 @@ p.copyright {
 label{width: 100%}
 textarea {resize: none;}
 .call-button{
-    -webkit-animation: alt-back 10s infinite; /* Chrome, Safari, Opera */
-    animation: alt-back 10s infinite;
+    -webkit-animation: alt-back 20s infinite; /* Chrome, Safari, Opera */
+    animation: alt-back 20s infinite;
 }
 @-webkit-keyframes  alt-back{
     100%{

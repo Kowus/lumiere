@@ -1,3 +1,24 @@
-<h1>{{message}}</h1>
+<!--<h1>{{!--message}}</h1>
 <h2>{{error.status}}</h2>
-<pre>{{error.stack}}</pre>
+<pre>{{error.stack--}}</pre>-->
+
+<a name="about"></a>
+<div class="intro-header">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-message">
+                    <h1>{{message}}</h1>
+                    <h3>{{error.status}}</h3>
+                    <hr class="intro-divider">
+                    <pre class="text-left">{{error.stack}}</pre>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /.intro-header -->
