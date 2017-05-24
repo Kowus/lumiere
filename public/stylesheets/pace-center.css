@@ -9,12 +9,12 @@
     z-index: 2000;
     position: fixed;
     margin: auto;
-    top: 0;
-    left: 10vw;
+    top: 50px;
+    left: 5vw;
     /*right: 0;*/
     /*bottom: 0;*/
     height: 5px;
-    width: 80vw;
+    width: 90vw;
     background: #333;
     border: 1px solid #fbfeff;
 
