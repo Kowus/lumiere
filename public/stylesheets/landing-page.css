@@ -261,3 +261,7 @@ textarea {resize: none;}
         color: white;
     }
 }
+
+.map{
+    height: 30vh;
+}
