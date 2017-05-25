@@ -14,14 +14,9 @@ $('a[href*=#]:not([href=#])').click(function() {
 
 
 // Scroll Reveal
-var srOptions ={
-	reset: true
-}
-
-window.sr = ScrollReveal(srOptions);
+window.sr = ScrollReveal({reset:true});
 
 sr.reveal('.content-section-a',{duration: 1000});
 sr.reveal('.soc-but',{duration:2000},200);
 sr.reveal('.fadein-head',{duration: 2000,origin:'top',distance:'50px'}, 300);
 sr.reveal('.intro-divider', {duration: 1000, distance:'10vh'});
-sr.reveal('.map', {duration: 1000, distance:'10vh',origin:"top"});
