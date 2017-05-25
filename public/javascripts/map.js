@@ -113,7 +113,12 @@ function initMap() {
 	const map = new google.maps.Map(document.getElementsByClassName('map')[0], {
 		zoom: 7,
 		center: {lat: 52.632469, lng: -1.689423},
-		styles: mapStyle
+		styles: mapStyle,
+		scrollwheel: false,
+		navigationControl: true,
+		mapTypeControl: false,
+		scaleControl: false,
+		draggable: true
 	});
 
 	// Load the stores GeoJSON onto the map.
