@@ -31,7 +31,7 @@
             <div class="col-lg-5 col-sm-6">
                 <hr class="section-heading-spacer">
                 <div class="clearfix"></div>
-                <dl>
+                <dl class="definitions">
                     <dt>
                         <dfn class="section-heading">
                             <h2>Light</h2>
@@ -50,7 +50,7 @@
                 </dl>
                 <!--try &#x026A; or &#618; for pronounciation i-->
             </div>
-            <div class="col-lg-5 col-lg-offset-2 col-sm-6 text-center">
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6 text-center definitions">
                 <!--<img class="img-responsive" src="/images/ipad.png" alt="">-->
                 <h1><i class="fa fa-5x fa-lightbulb-o"></i></h1>
             </div>
@@ -62,7 +62,7 @@
 </div>
 <!-- /.content-section-a -->
 
-<div class="content-section-b">
+<div class="content-section-b" id="pricing">
 
     <div class="container">
 
@@ -70,11 +70,17 @@
             <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                 <hr class="section-heading-spacer">
                 <div class="clearfix"></div>
-                <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+                <h2 class="section-heading">Tailored Pricing<br>
+                    <small>Flexible Event Suite Packages</small>
+                </h2>
+                <p class="lead">
+                    Because of our dedication to satisfying our customers' needs and our many years of experience, we have evolved to catering the diverse ever-increasing demands of our customers. No wonder <i class="lead stats" style="font-size: 2em;">90%</i> of our customers recommend us.
+                <aside class="price-zone">You may also choose a package from our <a href="#" class="btn btn-default price-zone-btn">custom packages</a> at a relatively affordable rate</aside>
+                </p>
             </div>
             <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                <img class="img-responsive" src="/images/dog.png" alt="">
+                <!--<img class="img-responsive" src="/images/dog.png" alt="">-->
+                {{> pricing }}
             </div>
         </div>
 
@@ -97,6 +103,7 @@
             </div>
             <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                 <img class="img-responsive" src="/images/phones.png" alt="">
+
             </div>
         </div>
 

@@ -14,7 +14,11 @@ $('a[href*=#]:not([href=#])').click(function() {
 
 // Scroll Reveal
 window.sr = ScrollReveal({reset:true});
-sr.reveal('.content-section-a',{duration: 1000});
+sr.reveal('.definitions',{duration: 2000}, 800);
 sr.reveal('.soc-but',{duration:2000},200);
 sr.reveal('.fadein-head',{duration: 2000,origin:'top',distance:'50px'}, 300);
 sr.reveal('.intro-divider', {duration: 1000, distance:'10vh'});
+sr.reveal('.columns',{duration:2000,origin:'right',distance:'50vw', reset:false},200);
+sr.reveal('.price-zone',{duration:2000,reset:false});
+sr.reveal('.stats',{duration:2000, origin:'left', distance:'100px',reset:false});
+sr.reveal('.price-zone-btn',{duration:1000, distance:'10vh',delay:1000,reset:false});
